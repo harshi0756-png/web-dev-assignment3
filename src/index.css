@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+body {
+  background: #a3cbdd;
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+
+form, table {
+  width: 500px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #19698b;
+}
+
+
+form {
+  display: flex;
+  gap: 10px;
+  background: #106374;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #0f172a;
+  color: white;
+}
+
+form input::placeholder {
+  color: #64748b;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #4fb6bd;
+  color: #0b1617;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+form button:hover {
+  background: #0ea5e9;
+}
+
+
+table {
+  border-collapse: collapse;
+  background: #268e95;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+
+thead {
+  background: #195558;
+  color: #0f172a;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+
+tbody tr {
+  border-bottom: 1px solid #266c75;
+}
+
+tbody tr:hover {
+  background: #266c75;
+  transition: 0.2s;
+}
+
+
+td input {
+  width: 70px;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+}
+
+
+td span.pass {
+  color: #36e777;
+  font-weight: 600;
+}
+
+td span.fail {
+  color: #d83434;
+  font-weight: 600;
+}
